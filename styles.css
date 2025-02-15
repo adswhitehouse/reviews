@@ -60,6 +60,11 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
 }
 
 .underline {
@@ -76,7 +81,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
   margin: 0 auto;
   text-align: center;
   background-color: #fff;
@@ -84,6 +88,7 @@ body {
   border-radius: 0.5rem;
   box-shadow: 0 0 10px gray;
   gap: 0.5rem;
+  width: 40rem;
 }
 
 .img-container {
@@ -167,4 +172,10 @@ body {
 .surprise-btn:hover {
   background-color: #a2d2ff;
   color: #fff;
+}
+
+@media screen and (max-width: 42rem) {
+  .content {
+    width: calc(100vw - 2rem);
+  }
 }
