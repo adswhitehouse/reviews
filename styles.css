@@ -54,4 +54,82 @@ select {
 
 body {
   font-family: "Poppins", serif;
+  background-color: #cdb4db;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.underline {
+  height: 0.25rem;
+  background-color: #a2d2ff;
+  border: none;
+  width: 4rem;
+  margin: 0 auto;
+  margin-top: 0.25rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px gray;
+  gap: 0.5rem;
+}
+
+.person-img {
+  object-fit: cover;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.author {
+  letter-spacing: 0.2rem;
+  font-size: 1.25rem;
+}
+
+.profession {
+  color: #a2d2ff;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  color: #a2d2ff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.surprise-btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid #a2d2ff;
+  border-radius: 0.25rem;
+  color: #a2d2ff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.25s;
+  font-size: 1.25rem;
+}
+
+.surprise-btn:hover {
+  background-color: #a2d2ff;
+  color: #fff;
 }
